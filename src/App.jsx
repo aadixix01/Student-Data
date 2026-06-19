@@ -59,7 +59,7 @@ export default function App() {
         <h1 className="md:text-3xl text-lg font-bold text-center text-gray-800 italic pt-2">
           Student Registration
         </h1>
-        <p className="text-center md:text-[16px] text-xs text-gray-500 ">
+        <p className="text-center md:text-[16px] text-xs text-gray-500 pt-2 ">
           Fill your details carefully
         </p>
 
@@ -89,6 +89,7 @@ export default function App() {
               placeholder="Phone Number"
               value={form.phone}
               onChange={handleChange}
+              maxLength={10}
               className="w-full px-4 py-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400"
               required
             />
