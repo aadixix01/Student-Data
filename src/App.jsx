@@ -71,6 +71,7 @@ export default function App() {
               value={form.name}
               onChange={handleChange}
               className="w-full px-4 py-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400"
+              required
 
             />
 
@@ -90,6 +91,7 @@ export default function App() {
               onChange={handleChange}
               maxLength={10}
               className="w-full px-4 py-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400"
+              required
 
             />
 
